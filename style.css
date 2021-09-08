@@ -315,20 +315,27 @@ rgba(0,0,0,0)) = hitam transparant
     /* About */
     .container{
         flex-direction: column-reverse;
+        flex-wrap: wrap;
         width: 100;
     }
     .container div{
-        width: 500px;
+        width: 290px;
         height: 300px;
     }
+    .container .about-img img{
+        height: 200px;
+        width: 290px;
+        margin: auto 0px;
+    }
+   
 
     /* Our Product */
     .product .product-title{
         text-align: center;
-        margin: auto -250px;
+        margin: auto -350px;
     }
     .row-product{
-        width: 380px;
+        width: 200px;
         display: flex;
         flex-wrap: wrap;
     }
