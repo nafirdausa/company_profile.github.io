@@ -288,6 +288,7 @@ rgba(0,0,0,0)) = hitam transparant
 
 /* Ukuran mobile */
 @media screen and (max-width: 576px) {
+    /* menu Toogle */
     .menu-toggle{
         display: flex;
     }
@@ -309,6 +310,39 @@ rgba(0,0,0,0)) = hitam transparant
     nav ul.slide{
         opacity: 1;
         transform: translateX(0);
+    }
+
+    /* About */
+    .container{
+        flex-direction: column-reverse;
+        width: 100;
+    }
+    .container div{
+        width: 500px;
+        height: 300px;
+    }
+
+    /* Our Product */
+    .product .product-title{
+        text-align: center;
+        margin: auto -250px;
+    }
+    .row-product{
+        width: 380px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row-product .col-product-tiga{
+        margin-bottom: 375px;
+    }
+    .row-product .col-product-empat{
+        margin-bottom: 210px;
+    }
+    .row-product .col-product-enam{
+        margin-bottom: 240px;
+    }
+    .row-product .col-product-tuju{
+        margin-bottom: 75px;
     }
 }
 
